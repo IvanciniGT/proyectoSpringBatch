@@ -1,4 +1,4 @@
-package com.curso.jobs.mijob.steps.step1;
+package com.curso.jobs.mijob.steps.step2;
 
 import com.curso.entity.ItemDeEntrada;
 import com.curso.entity.ItemProcesado;
@@ -11,22 +11,19 @@ import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("com.curso.jobs.mijob.steps.step1")
-
 // Cuando alguien pida un Step, que se devuelva una instancia de esta clase
-public class Step1 {
+public class Step2 {
 
     // Por algún sitio le tengo que asociar:
     // Un Lector
     // Un Procesador
     // Un Escritor
     @Bean
-    @Qualifier("StepDeTipoA")
-    public Step configurarElStep1(
+    @Qualifier("StepDeTipoB")
+    public Step configurarElStep2(
             StepBuilderFactory factoriaDeSteps,                                     // Solicitar una Inyección de dependencias
             ItemReader<ItemDeEntrada> elLectorQueVoyAUsar,                          // Solicitar una Inyección de dependencias
             ItemProcessor<ItemDeEntrada, ItemProcesado> elProcesadorQueVoyAUsar,    // Solicitar una Inyección de dependencias
@@ -36,7 +33,7 @@ public class Step1 {
     ){
         // Los Steps dentro de SpringBatch no los creamos nosotros.
         // SpringBatch me ofrece una clase llamada StepBuilderFactory que me permite crear Steps
-        return factoriaDeSteps.get("step1") // Quiero un paso llamado Step1
+        return factoriaDeSteps.get("step2") // Quiero un paso llamado Step1
                 .<ItemDeEntrada, ItemProcesado>chunk(10) // El tamaño de transacción y tipos de datos
                 .listener(elListenerQueVoyAUsar)        // Le digo el listener que voy a usar
                 .listener(elListener2QueVoyAUsar)       // Le digo el listener que voy a usar

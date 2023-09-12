@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b565174d-76b6-471e-8a8f-b145d6cf5a57" name="Changes" comment="Alta">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/MiAplicacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/MiJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/Step1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/listeners/EscritorListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/listeners/LectorListener.java" afterDir="false" />
+    <list default="true" id="b565174d-76b6-471e-8a8f-b145d6cf5a57" name="Changes" comment="Funcionando">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step2/Step2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/mappers/MapeadoresImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/ItemDeEntrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/entity/ItemDeEntrada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/ItemProcesado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/entity/ItemProcesado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jobs/mijob/MiJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jobs/mijob/steps/step1/Escritor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/Escritor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jobs/mijob/steps/step1/Lector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/Lector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jobs/mijob/steps/step1/Procesador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/Procesador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jobs/mijob/steps/step1/Step1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mappers/Mapeadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/mappers/Mapeadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/MiJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/MiJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/Lector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/Lector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/Procesador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/Procesador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/Step1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/Step1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curso/mappers/Mapeadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/mappers/Mapeadores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -73,6 +66,7 @@
       <recent name="jobs.mijob.steps.step1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.curso.jobs.mijob.steps.step2" />
       <recent name="jobs.mijob.steps.step1.listeners" />
     </key>
   </component>
@@ -104,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694525561402</updated>
-      <workItem from="1694525565656" duration="9990000" />
+      <workItem from="1694525565656" duration="11741000" />
     </task>
     <task id="LOCAL-00001" summary="Alta">
       <option name="closed" value="true" />
@@ -114,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694531611676</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Funcionando">
+      <option name="closed" value="true" />
+      <created>1694536535727</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694536535727</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Alta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alta" />
+    <MESSAGE value="Funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funcionando" />
   </component>
 </project>

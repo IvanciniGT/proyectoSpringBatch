@@ -32,4 +32,21 @@ public class Lector {
     // de forma que si alguien pide un "ItemReader<ItemDeEntrada>" le devuelvo lo que devuelve esta función
     // por haberla marcado con la anotación @Bean
 
+    // Formación Java 1.8
+    // Programación funcional
+    // Paquete nuevo gestión de fechas: java.time (antiguo joda-time)
+    // Optional
+    // Meter código estático en interfaces
+
+    // Java 9, 10 y 11
+    // Java 9: Módulos de java - Proyecto Jigsaw
+    //          Interfaz
+    //          Clase
+    //          Paquetes
+    //          Módulos
+    // Java 21
+
+    // Formación de Spring
+
+    // Docker & Contenedores
 }
