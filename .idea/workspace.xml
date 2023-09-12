@@ -4,31 +4,98 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b565174d-76b6-471e-8a8f-b145d6cf5a57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="b565174d-76b6-471e-8a8f-b145d6cf5a57" name="Changes" comment="Alta">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/MiAplicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/MiJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/Step1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/listeners/EscritorListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/listeners/LectorListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/ItemDeEntrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/entity/ItemDeEntrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/ItemProcesado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/entity/ItemProcesado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobs/mijob/MiJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobs/mijob/steps/step1/Escritor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/Escritor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobs/mijob/steps/step1/Lector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/Lector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobs/mijob/steps/step1/Procesador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/jobs/mijob/steps/step1/Procesador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobs/mijob/steps/step1/Step1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mappers/Mapeadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curso/mappers/Mapeadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
   <component name="ProjectId" id="2VIZSvokgswuDTc1m14rAzNbkyM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/jobs" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="jobs.mijob.steps.step1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jobs.mijob.steps.step1.listeners" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MiAplicacion" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="proceso-batch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.curso.MiAplicacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.curso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MiAplicacion" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,8 +104,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694525561402</updated>
-      <workItem from="1694525565656" duration="9000" />
+      <workItem from="1694525565656" duration="9990000" />
     </task>
+    <task id="LOCAL-00001" summary="Alta">
+      <option name="closed" value="true" />
+      <created>1694531611676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694531611676</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Alta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alta" />
   </component>
 </project>

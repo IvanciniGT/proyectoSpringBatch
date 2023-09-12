@@ -1,4 +1,4 @@
-package entity;
+package com.curso.entity;
 
 import lombok.Data;
 

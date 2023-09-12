@@ -1,6 +1,6 @@
-package jobs.mijob.steps.step1;
+package com.curso.jobs.mijob.steps.step1;
 
-import entity.ItemDeEntrada;
+import com.curso.entity.ItemDeEntrada;
 import org.springframework.batch.item.ItemReader;
 import org.springframework.batch.item.file.builder.FlatFileItemReaderBuilder;
 import org.springframework.beans.factory.annotation.Value;

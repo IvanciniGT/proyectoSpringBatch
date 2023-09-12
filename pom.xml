@@ -29,6 +29,20 @@
             <artifactId>spring-boot-starter-batch</artifactId>
             <version>2.7.15</version>
         </dependency>
+        <!-- Añado un logger para Spring  -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+        <!-- Ponme una BBDD de pega... en memoria... pa jugar -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>2.2.222</version>
+            <!--scope>test</scope-->
+        </dependency>
+
     </dependencies>
 
 </project>

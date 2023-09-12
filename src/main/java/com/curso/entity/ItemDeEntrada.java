@@ -1,6 +1,8 @@
-package entity;
+package com.curso.entity;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 @Data
 // Genera los getters, setters, toString, equals, hashCode y un constructor vacío

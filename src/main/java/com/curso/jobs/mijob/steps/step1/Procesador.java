@@ -1,11 +1,11 @@
-package jobs.mijob.steps.step1;
+package com.curso.jobs.mijob.steps.step1;
 
-import entity.ItemDeEntrada;
-import entity.ItemProcesado;
+import com.curso.entity.ItemDeEntrada;
+import com.curso.entity.ItemProcesado;
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.stereotype.Component;
 
-import static mappers.Mapeadores.itemDeEntrada2ItemProcesado;
+import static com.curso.mappers.Mapeadores.itemDeEntrada2ItemProcesado;
 
 @Component // Yo soy quien ofrece la implementación de ItemProcessor<ItemDeEntrada, ItemProcesado>
 public class Procesador implements ItemProcessor<ItemDeEntrada, ItemProcesado> {

@@ -1,7 +1,7 @@
-package mappers;
+package com.curso.mappers;
 
-import entity.ItemDeEntrada;
-import entity.ItemProcesado;
+import com.curso.entity.ItemDeEntrada;
+import com.curso.entity.ItemProcesado;
 
 public class Mapeadores{
 

@@ -1,6 +1,6 @@
-package jobs.mijob.steps.step1;
+package com.curso.jobs.mijob.steps.step1;
 
-import entity.ItemProcesado;
+import com.curso.entity.ItemProcesado;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.stereotype.Component;
 
